@@ -1,0 +1,490 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{811E0E78-9FFB-389F-BB88-137C456ABECA}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <VcpkgEnabled>false</VcpkgEnabled>
+    <WindowsTargetPlatformVersion>10.0.26100.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>AVA_C</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="do_not_import_user.props" Condition="exists('do_not_import_user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\AVA-C\build\app\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">AVA_C.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">AVA_C</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\AVA-C\build\app\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">AVA_C.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">AVA_C</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\AVA-C\build\app\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">AVA_C.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">AVA_C</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\AVA-C\build\app\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">AVA_C.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">AVA_C</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\AVA-C;C:\AVA-C\external;C:\AVA-C\external\nlohmann;C:\AVA-C\core;C:\AVA-C\ui;C:\AVA-C\external\nanovg\src;C:\AVA-C\ui\..\external\glad\include;C:\AVA-C\ui\..\external\nanovg;C:\AVA-C\ui\..\external\nanovg\src;C:\AVA-C\audio;C:\AVA-C\DaisySP\Source;C:\AVA-C\dsp;C:\AVA-C\DaisySP\Source\Control;C:\AVA-C\DaisySP\Source\Drums;C:\AVA-C\DaisySP\Source\Dynamics;C:\AVA-C\DaisySP\Source\Effects;C:\AVA-C\DaisySP\Source\Filters;C:\AVA-C\DaisySP\Source\Noise;C:\AVA-C\DaisySP\Source\PhysicalModeling;C:\AVA-C\DaisySP\Source\Sampling;C:\AVA-C\DaisySP\Source\Synthesis;C:\AVA-C\DaisySP\Source\Utility;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/vcpkg/installed/x64-windows/include" /external:I "C:/vcpkg/installed/x64-windows/include/SDL2" /external:I "C:/vcpkg/installed/x64-windows/include/rtaudio"</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <ForceConformanceInForLoopScope></ForceConformanceInForLoopScope>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData></RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <SupportJustMyCode></SupportJustMyCode>
+      <TreatWChar_tAsBuiltInType></TreatWChar_tAsBuiltInType>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;SDL_MAIN_HANDLED;_USE_MATH_DEFINES;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;SDL_MAIN_HANDLED;_USE_MATH_DEFINES;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\AVA-C;C:\AVA-C\external;C:\AVA-C\external\nlohmann;C:\AVA-C\core;C:\AVA-C\ui;C:\AVA-C\external\nanovg\src;C:\AVA-C\ui\..\external\glad\include;C:\AVA-C\ui\..\external\nanovg;C:\AVA-C\ui\..\external\nanovg\src;C:\AVA-C\audio;C:\AVA-C\DaisySP\Source;C:\AVA-C\dsp;C:\AVA-C\DaisySP\Source\Control;C:\AVA-C\DaisySP\Source\Drums;C:\AVA-C\DaisySP\Source\Dynamics;C:\AVA-C\DaisySP\Source\Effects;C:\AVA-C\DaisySP\Source\Filters;C:\AVA-C\DaisySP\Source\Noise;C:\AVA-C\DaisySP\Source\PhysicalModeling;C:\AVA-C\DaisySP\Source\Sampling;C:\AVA-C\DaisySP\Source\Synthesis;C:\AVA-C\DaisySP\Source\Utility;C:\vcpkg\installed\x64-windows\include;C:\vcpkg\installed\x64-windows\include\SDL2;C:\vcpkg\installed\x64-windows\include\rtaudio;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\AVA-C;C:\AVA-C\external;C:\AVA-C\external\nlohmann;C:\AVA-C\core;C:\AVA-C\ui;C:\AVA-C\external\nanovg\src;C:\AVA-C\ui\..\external\glad\include;C:\AVA-C\ui\..\external\nanovg;C:\AVA-C\ui\..\external\nanovg\src;C:\AVA-C\audio;C:\AVA-C\DaisySP\Source;C:\AVA-C\dsp;C:\AVA-C\DaisySP\Source\Control;C:\AVA-C\DaisySP\Source\Drums;C:\AVA-C\DaisySP\Source\Dynamics;C:\AVA-C\DaisySP\Source\Effects;C:\AVA-C\DaisySP\Source\Filters;C:\AVA-C\DaisySP\Source\Noise;C:\AVA-C\DaisySP\Source\PhysicalModeling;C:\AVA-C\DaisySP\Source\Sampling;C:\AVA-C\DaisySP\Source\Synthesis;C:\AVA-C\DaisySP\Source\Utility;C:\vcpkg\installed\x64-windows\include;C:\vcpkg\installed\x64-windows\include\SDL2;C:\vcpkg\installed\x64-windows\include\rtaudio;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>	</Message>
+      <Command>setlocal
+C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -noprofile -executionpolicy Bypass -file C:/vcpkg/scripts/buildsystems/msbuild/applocal.ps1 -targetBinary C:/AVA-C/build/app/Debug/AVA_C.exe -installedDir C:/vcpkg/installed/x64-windows/debug/bin -OutVariable out
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy -t C:/AVA-C/build/app/Debug C:/vcpkg/installed/x64-windows/debug/bin/libcurl-d.dll C:/vcpkg/installed/x64-windows/debug/bin/SDL2d.dll C:/vcpkg/installed/x64-windows/debug/bin/rtaudiod.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>..\core\Debug\ava_core.lib;..\ui\Debug\ava_ui.lib;..\audio\Debug\ava_audio.lib;..\dsp\Debug\ava_dsp.lib;opengl32.lib;C:\vcpkg\installed\x64-windows\debug\lib\libcurl-d.lib;..\ui\Debug\ava_ui.lib;C:\vcpkg\installed\x64-windows\debug\lib\SDL2d.lib;..\ui\Debug\nanovg_gl3.lib;..\ui\Debug\glad.lib;C:\vcpkg\installed\x64-windows\debug\lib\rtaudiod.lib;ksuser.lib;mfplat.lib;mfuuid.lib;wmcodecdspuuid.lib;winmm.lib;ole32.lib;..\DaisySP\Debug\DaisySP.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <DataExecutionPrevention></DataExecutionPrevention>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImageHasSafeExceptionHandlers></ImageHasSafeExceptionHandlers>
+      <ImportLibrary>C:/AVA-C/build/app/Debug/AVA_C.lib</ImportLibrary>
+      <LinkErrorReporting></LinkErrorReporting>
+      <ProgramDataBaseFile>C:/AVA-C/build/app/Debug/AVA_C.pdb</ProgramDataBaseFile>
+      <RandomizedBaseAddress></RandomizedBaseAddress>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\AVA-C;C:\AVA-C\external;C:\AVA-C\external\nlohmann;C:\AVA-C\core;C:\AVA-C\ui;C:\AVA-C\external\nanovg\src;C:\AVA-C\ui\..\external\glad\include;C:\AVA-C\ui\..\external\nanovg;C:\AVA-C\ui\..\external\nanovg\src;C:\AVA-C\audio;C:\AVA-C\DaisySP\Source;C:\AVA-C\dsp;C:\AVA-C\DaisySP\Source\Control;C:\AVA-C\DaisySP\Source\Drums;C:\AVA-C\DaisySP\Source\Dynamics;C:\AVA-C\DaisySP\Source\Effects;C:\AVA-C\DaisySP\Source\Filters;C:\AVA-C\DaisySP\Source\Noise;C:\AVA-C\DaisySP\Source\PhysicalModeling;C:\AVA-C\DaisySP\Source\Sampling;C:\AVA-C\DaisySP\Source\Synthesis;C:\AVA-C\DaisySP\Source\Utility;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/vcpkg/installed/x64-windows/include" /external:I "C:/vcpkg/installed/x64-windows/include/SDL2" /external:I "C:/vcpkg/installed/x64-windows/include/rtaudio"</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <ForceConformanceInForLoopScope></ForceConformanceInForLoopScope>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData></RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <SupportJustMyCode></SupportJustMyCode>
+      <TreatWChar_tAsBuiltInType></TreatWChar_tAsBuiltInType>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;SDL_MAIN_HANDLED;_USE_MATH_DEFINES;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;SDL_MAIN_HANDLED;_USE_MATH_DEFINES;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\AVA-C;C:\AVA-C\external;C:\AVA-C\external\nlohmann;C:\AVA-C\core;C:\AVA-C\ui;C:\AVA-C\external\nanovg\src;C:\AVA-C\ui\..\external\glad\include;C:\AVA-C\ui\..\external\nanovg;C:\AVA-C\ui\..\external\nanovg\src;C:\AVA-C\audio;C:\AVA-C\DaisySP\Source;C:\AVA-C\dsp;C:\AVA-C\DaisySP\Source\Control;C:\AVA-C\DaisySP\Source\Drums;C:\AVA-C\DaisySP\Source\Dynamics;C:\AVA-C\DaisySP\Source\Effects;C:\AVA-C\DaisySP\Source\Filters;C:\AVA-C\DaisySP\Source\Noise;C:\AVA-C\DaisySP\Source\PhysicalModeling;C:\AVA-C\DaisySP\Source\Sampling;C:\AVA-C\DaisySP\Source\Synthesis;C:\AVA-C\DaisySP\Source\Utility;C:\vcpkg\installed\x64-windows\include;C:\vcpkg\installed\x64-windows\include\SDL2;C:\vcpkg\installed\x64-windows\include\rtaudio;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\AVA-C;C:\AVA-C\external;C:\AVA-C\external\nlohmann;C:\AVA-C\core;C:\AVA-C\ui;C:\AVA-C\external\nanovg\src;C:\AVA-C\ui\..\external\glad\include;C:\AVA-C\ui\..\external\nanovg;C:\AVA-C\ui\..\external\nanovg\src;C:\AVA-C\audio;C:\AVA-C\DaisySP\Source;C:\AVA-C\dsp;C:\AVA-C\DaisySP\Source\Control;C:\AVA-C\DaisySP\Source\Drums;C:\AVA-C\DaisySP\Source\Dynamics;C:\AVA-C\DaisySP\Source\Effects;C:\AVA-C\DaisySP\Source\Filters;C:\AVA-C\DaisySP\Source\Noise;C:\AVA-C\DaisySP\Source\PhysicalModeling;C:\AVA-C\DaisySP\Source\Sampling;C:\AVA-C\DaisySP\Source\Synthesis;C:\AVA-C\DaisySP\Source\Utility;C:\vcpkg\installed\x64-windows\include;C:\vcpkg\installed\x64-windows\include\SDL2;C:\vcpkg\installed\x64-windows\include\rtaudio;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>	</Message>
+      <Command>setlocal
+C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -noprofile -executionpolicy Bypass -file C:/vcpkg/scripts/buildsystems/msbuild/applocal.ps1 -targetBinary C:/AVA-C/build/app/Release/AVA_C.exe -installedDir C:/vcpkg/installed/x64-windows/bin -OutVariable out
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy -t C:/AVA-C/build/app/Release C:/vcpkg/installed/x64-windows/bin/libcurl.dll C:/vcpkg/installed/x64-windows/bin/SDL2.dll C:/vcpkg/installed/x64-windows/bin/rtaudio.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>..\core\Release\ava_core.lib;..\ui\Release\ava_ui.lib;..\audio\Release\ava_audio.lib;..\dsp\Release\ava_dsp.lib;opengl32.lib;C:\vcpkg\installed\x64-windows\lib\libcurl.lib;..\ui\Release\ava_ui.lib;C:\vcpkg\installed\x64-windows\lib\SDL2.lib;..\ui\Release\nanovg_gl3.lib;..\ui\Release\glad.lib;C:\vcpkg\installed\x64-windows\lib\rtaudio.lib;ksuser.lib;mfplat.lib;mfuuid.lib;wmcodecdspuuid.lib;winmm.lib;ole32.lib;..\DaisySP\Release\DaisySP.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <DataExecutionPrevention></DataExecutionPrevention>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImageHasSafeExceptionHandlers></ImageHasSafeExceptionHandlers>
+      <ImportLibrary>C:/AVA-C/build/app/Release/AVA_C.lib</ImportLibrary>
+      <LinkErrorReporting></LinkErrorReporting>
+      <ProgramDataBaseFile>C:/AVA-C/build/app/Release/AVA_C.pdb</ProgramDataBaseFile>
+      <RandomizedBaseAddress></RandomizedBaseAddress>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\AVA-C;C:\AVA-C\external;C:\AVA-C\external\nlohmann;C:\AVA-C\core;C:\AVA-C\ui;C:\AVA-C\external\nanovg\src;C:\AVA-C\ui\..\external\glad\include;C:\AVA-C\ui\..\external\nanovg;C:\AVA-C\ui\..\external\nanovg\src;C:\AVA-C\audio;C:\AVA-C\DaisySP\Source;C:\AVA-C\dsp;C:\AVA-C\DaisySP\Source\Control;C:\AVA-C\DaisySP\Source\Drums;C:\AVA-C\DaisySP\Source\Dynamics;C:\AVA-C\DaisySP\Source\Effects;C:\AVA-C\DaisySP\Source\Filters;C:\AVA-C\DaisySP\Source\Noise;C:\AVA-C\DaisySP\Source\PhysicalModeling;C:\AVA-C\DaisySP\Source\Sampling;C:\AVA-C\DaisySP\Source\Synthesis;C:\AVA-C\DaisySP\Source\Utility;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/vcpkg/installed/x64-windows/include" /external:I "C:/vcpkg/installed/x64-windows/include/SDL2" /external:I "C:/vcpkg/installed/x64-windows/include/rtaudio"</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <ForceConformanceInForLoopScope></ForceConformanceInForLoopScope>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData></RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <SupportJustMyCode></SupportJustMyCode>
+      <TreatWChar_tAsBuiltInType></TreatWChar_tAsBuiltInType>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;SDL_MAIN_HANDLED;_USE_MATH_DEFINES;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;SDL_MAIN_HANDLED;_USE_MATH_DEFINES;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\AVA-C;C:\AVA-C\external;C:\AVA-C\external\nlohmann;C:\AVA-C\core;C:\AVA-C\ui;C:\AVA-C\external\nanovg\src;C:\AVA-C\ui\..\external\glad\include;C:\AVA-C\ui\..\external\nanovg;C:\AVA-C\ui\..\external\nanovg\src;C:\AVA-C\audio;C:\AVA-C\DaisySP\Source;C:\AVA-C\dsp;C:\AVA-C\DaisySP\Source\Control;C:\AVA-C\DaisySP\Source\Drums;C:\AVA-C\DaisySP\Source\Dynamics;C:\AVA-C\DaisySP\Source\Effects;C:\AVA-C\DaisySP\Source\Filters;C:\AVA-C\DaisySP\Source\Noise;C:\AVA-C\DaisySP\Source\PhysicalModeling;C:\AVA-C\DaisySP\Source\Sampling;C:\AVA-C\DaisySP\Source\Synthesis;C:\AVA-C\DaisySP\Source\Utility;C:\vcpkg\installed\x64-windows\include;C:\vcpkg\installed\x64-windows\include\SDL2;C:\vcpkg\installed\x64-windows\include\rtaudio;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\AVA-C;C:\AVA-C\external;C:\AVA-C\external\nlohmann;C:\AVA-C\core;C:\AVA-C\ui;C:\AVA-C\external\nanovg\src;C:\AVA-C\ui\..\external\glad\include;C:\AVA-C\ui\..\external\nanovg;C:\AVA-C\ui\..\external\nanovg\src;C:\AVA-C\audio;C:\AVA-C\DaisySP\Source;C:\AVA-C\dsp;C:\AVA-C\DaisySP\Source\Control;C:\AVA-C\DaisySP\Source\Drums;C:\AVA-C\DaisySP\Source\Dynamics;C:\AVA-C\DaisySP\Source\Effects;C:\AVA-C\DaisySP\Source\Filters;C:\AVA-C\DaisySP\Source\Noise;C:\AVA-C\DaisySP\Source\PhysicalModeling;C:\AVA-C\DaisySP\Source\Sampling;C:\AVA-C\DaisySP\Source\Synthesis;C:\AVA-C\DaisySP\Source\Utility;C:\vcpkg\installed\x64-windows\include;C:\vcpkg\installed\x64-windows\include\SDL2;C:\vcpkg\installed\x64-windows\include\rtaudio;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>	</Message>
+      <Command>setlocal
+C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -noprofile -executionpolicy Bypass -file C:/vcpkg/scripts/buildsystems/msbuild/applocal.ps1 -targetBinary C:/AVA-C/build/app/MinSizeRel/AVA_C.exe -installedDir C:/vcpkg/installed/x64-windows/bin -OutVariable out
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy -t C:/AVA-C/build/app/MinSizeRel C:/vcpkg/installed/x64-windows/bin/libcurl.dll C:/vcpkg/installed/x64-windows/bin/SDL2.dll C:/vcpkg/installed/x64-windows/bin/rtaudio.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>..\core\MinSizeRel\ava_core.lib;..\ui\MinSizeRel\ava_ui.lib;..\audio\MinSizeRel\ava_audio.lib;..\dsp\MinSizeRel\ava_dsp.lib;opengl32.lib;C:\vcpkg\installed\x64-windows\lib\libcurl.lib;..\ui\MinSizeRel\ava_ui.lib;C:\vcpkg\installed\x64-windows\lib\SDL2.lib;..\ui\MinSizeRel\nanovg_gl3.lib;..\ui\MinSizeRel\glad.lib;C:\vcpkg\installed\x64-windows\lib\rtaudio.lib;ksuser.lib;mfplat.lib;mfuuid.lib;wmcodecdspuuid.lib;winmm.lib;ole32.lib;..\DaisySP\MinSizeRel\DaisySP.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <DataExecutionPrevention></DataExecutionPrevention>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImageHasSafeExceptionHandlers></ImageHasSafeExceptionHandlers>
+      <ImportLibrary>C:/AVA-C/build/app/MinSizeRel/AVA_C.lib</ImportLibrary>
+      <LinkErrorReporting></LinkErrorReporting>
+      <ProgramDataBaseFile>C:/AVA-C/build/app/MinSizeRel/AVA_C.pdb</ProgramDataBaseFile>
+      <RandomizedBaseAddress></RandomizedBaseAddress>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\AVA-C;C:\AVA-C\external;C:\AVA-C\external\nlohmann;C:\AVA-C\core;C:\AVA-C\ui;C:\AVA-C\external\nanovg\src;C:\AVA-C\ui\..\external\glad\include;C:\AVA-C\ui\..\external\nanovg;C:\AVA-C\ui\..\external\nanovg\src;C:\AVA-C\audio;C:\AVA-C\DaisySP\Source;C:\AVA-C\dsp;C:\AVA-C\DaisySP\Source\Control;C:\AVA-C\DaisySP\Source\Drums;C:\AVA-C\DaisySP\Source\Dynamics;C:\AVA-C\DaisySP\Source\Effects;C:\AVA-C\DaisySP\Source\Filters;C:\AVA-C\DaisySP\Source\Noise;C:\AVA-C\DaisySP\Source\PhysicalModeling;C:\AVA-C\DaisySP\Source\Sampling;C:\AVA-C\DaisySP\Source\Synthesis;C:\AVA-C\DaisySP\Source\Utility;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/vcpkg/installed/x64-windows/include" /external:I "C:/vcpkg/installed/x64-windows/include/SDL2" /external:I "C:/vcpkg/installed/x64-windows/include/rtaudio"</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <ForceConformanceInForLoopScope></ForceConformanceInForLoopScope>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData></RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <SupportJustMyCode></SupportJustMyCode>
+      <TreatWChar_tAsBuiltInType></TreatWChar_tAsBuiltInType>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;SDL_MAIN_HANDLED;_USE_MATH_DEFINES;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;SDL_MAIN_HANDLED;_USE_MATH_DEFINES;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\AVA-C;C:\AVA-C\external;C:\AVA-C\external\nlohmann;C:\AVA-C\core;C:\AVA-C\ui;C:\AVA-C\external\nanovg\src;C:\AVA-C\ui\..\external\glad\include;C:\AVA-C\ui\..\external\nanovg;C:\AVA-C\ui\..\external\nanovg\src;C:\AVA-C\audio;C:\AVA-C\DaisySP\Source;C:\AVA-C\dsp;C:\AVA-C\DaisySP\Source\Control;C:\AVA-C\DaisySP\Source\Drums;C:\AVA-C\DaisySP\Source\Dynamics;C:\AVA-C\DaisySP\Source\Effects;C:\AVA-C\DaisySP\Source\Filters;C:\AVA-C\DaisySP\Source\Noise;C:\AVA-C\DaisySP\Source\PhysicalModeling;C:\AVA-C\DaisySP\Source\Sampling;C:\AVA-C\DaisySP\Source\Synthesis;C:\AVA-C\DaisySP\Source\Utility;C:\vcpkg\installed\x64-windows\include;C:\vcpkg\installed\x64-windows\include\SDL2;C:\vcpkg\installed\x64-windows\include\rtaudio;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\AVA-C;C:\AVA-C\external;C:\AVA-C\external\nlohmann;C:\AVA-C\core;C:\AVA-C\ui;C:\AVA-C\external\nanovg\src;C:\AVA-C\ui\..\external\glad\include;C:\AVA-C\ui\..\external\nanovg;C:\AVA-C\ui\..\external\nanovg\src;C:\AVA-C\audio;C:\AVA-C\DaisySP\Source;C:\AVA-C\dsp;C:\AVA-C\DaisySP\Source\Control;C:\AVA-C\DaisySP\Source\Drums;C:\AVA-C\DaisySP\Source\Dynamics;C:\AVA-C\DaisySP\Source\Effects;C:\AVA-C\DaisySP\Source\Filters;C:\AVA-C\DaisySP\Source\Noise;C:\AVA-C\DaisySP\Source\PhysicalModeling;C:\AVA-C\DaisySP\Source\Sampling;C:\AVA-C\DaisySP\Source\Synthesis;C:\AVA-C\DaisySP\Source\Utility;C:\vcpkg\installed\x64-windows\include;C:\vcpkg\installed\x64-windows\include\SDL2;C:\vcpkg\installed\x64-windows\include\rtaudio;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>	</Message>
+      <Command>setlocal
+C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -noprofile -executionpolicy Bypass -file C:/vcpkg/scripts/buildsystems/msbuild/applocal.ps1 -targetBinary C:/AVA-C/build/app/RelWithDebInfo/AVA_C.exe -installedDir C:/vcpkg/installed/x64-windows/bin -OutVariable out
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy -t C:/AVA-C/build/app/RelWithDebInfo C:/vcpkg/installed/x64-windows/bin/libcurl.dll C:/vcpkg/installed/x64-windows/bin/SDL2.dll C:/vcpkg/installed/x64-windows/bin/rtaudio.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>..\core\RelWithDebInfo\ava_core.lib;..\ui\RelWithDebInfo\ava_ui.lib;..\audio\RelWithDebInfo\ava_audio.lib;..\dsp\RelWithDebInfo\ava_dsp.lib;opengl32.lib;C:\vcpkg\installed\x64-windows\lib\libcurl.lib;..\ui\RelWithDebInfo\ava_ui.lib;C:\vcpkg\installed\x64-windows\lib\SDL2.lib;..\ui\RelWithDebInfo\nanovg_gl3.lib;..\ui\RelWithDebInfo\glad.lib;C:\vcpkg\installed\x64-windows\lib\rtaudio.lib;ksuser.lib;mfplat.lib;mfuuid.lib;wmcodecdspuuid.lib;winmm.lib;ole32.lib;..\DaisySP\RelWithDebInfo\DaisySP.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <DataExecutionPrevention></DataExecutionPrevention>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImageHasSafeExceptionHandlers></ImageHasSafeExceptionHandlers>
+      <ImportLibrary>C:/AVA-C/build/app/RelWithDebInfo/AVA_C.lib</ImportLibrary>
+      <LinkErrorReporting></LinkErrorReporting>
+      <ProgramDataBaseFile>C:/AVA-C/build/app/RelWithDebInfo/AVA_C.pdb</ProgramDataBaseFile>
+      <RandomizedBaseAddress></RandomizedBaseAddress>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\AVA-C\app\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/AVA-C/app/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/AVA-C -BC:/AVA-C/build --check-stamp-file C:/AVA-C/build/app/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-4.1\Modules\CMakeFindDependencyMacro.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\FindZLIB.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\SelectLibraryConfigurations.cmake;C:\vcpkg\installed\x64-windows\share\curl\CURLConfig.cmake;C:\vcpkg\installed\x64-windows\share\curl\CURLConfigVersion.cmake;C:\vcpkg\installed\x64-windows\share\curl\CURLTargets-debug.cmake;C:\vcpkg\installed\x64-windows\share\curl\CURLTargets-release.cmake;C:\vcpkg\installed\x64-windows\share\curl\CURLTargets.cmake;C:\vcpkg\installed\x64-windows\share\curl\vcpkg-cmake-wrapper.cmake;C:\vcpkg\installed\x64-windows\share\zlib\vcpkg-cmake-wrapper.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\AVA-C\build\app\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/AVA-C/app/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/AVA-C -BC:/AVA-C/build --check-stamp-file C:/AVA-C/build/app/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-4.1\Modules\CMakeFindDependencyMacro.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\FindZLIB.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\SelectLibraryConfigurations.cmake;C:\vcpkg\installed\x64-windows\share\curl\CURLConfig.cmake;C:\vcpkg\installed\x64-windows\share\curl\CURLConfigVersion.cmake;C:\vcpkg\installed\x64-windows\share\curl\CURLTargets-debug.cmake;C:\vcpkg\installed\x64-windows\share\curl\CURLTargets-release.cmake;C:\vcpkg\installed\x64-windows\share\curl\CURLTargets.cmake;C:\vcpkg\installed\x64-windows\share\curl\vcpkg-cmake-wrapper.cmake;C:\vcpkg\installed\x64-windows\share\zlib\vcpkg-cmake-wrapper.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\AVA-C\build\app\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/AVA-C/app/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/AVA-C -BC:/AVA-C/build --check-stamp-file C:/AVA-C/build/app/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-4.1\Modules\CMakeFindDependencyMacro.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\FindZLIB.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\SelectLibraryConfigurations.cmake;C:\vcpkg\installed\x64-windows\share\curl\CURLConfig.cmake;C:\vcpkg\installed\x64-windows\share\curl\CURLConfigVersion.cmake;C:\vcpkg\installed\x64-windows\share\curl\CURLTargets-debug.cmake;C:\vcpkg\installed\x64-windows\share\curl\CURLTargets-release.cmake;C:\vcpkg\installed\x64-windows\share\curl\CURLTargets.cmake;C:\vcpkg\installed\x64-windows\share\curl\vcpkg-cmake-wrapper.cmake;C:\vcpkg\installed\x64-windows\share\zlib\vcpkg-cmake-wrapper.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\AVA-C\build\app\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/AVA-C/app/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/AVA-C -BC:/AVA-C/build --check-stamp-file C:/AVA-C/build/app/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-4.1\Modules\CMakeFindDependencyMacro.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\FindZLIB.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\SelectLibraryConfigurations.cmake;C:\vcpkg\installed\x64-windows\share\curl\CURLConfig.cmake;C:\vcpkg\installed\x64-windows\share\curl\CURLConfigVersion.cmake;C:\vcpkg\installed\x64-windows\share\curl\CURLTargets-debug.cmake;C:\vcpkg\installed\x64-windows\share\curl\CURLTargets-release.cmake;C:\vcpkg\installed\x64-windows\share\curl\CURLTargets.cmake;C:\vcpkg\installed\x64-windows\share\curl\vcpkg-cmake-wrapper.cmake;C:\vcpkg\installed\x64-windows\share\zlib\vcpkg-cmake-wrapper.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\AVA-C\build\app\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\AVA-C\app\main.cpp" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="C:\AVA-C\build\ZERO_CHECK.vcxproj">
+      <Project>{535E3800-21F0-3619-B277-EE33078294AD}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\AVA-C\build\DaisySP\DaisySP.vcxproj">
+      <Project>{EBCBB074-8A56-3ABB-8CF0-663C2870C8C3}</Project>
+      <Name>DaisySP</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\AVA-C\build\audio\ava_audio.vcxproj">
+      <Project>{08BA50ED-C911-30AE-B941-5E244701B3D9}</Project>
+      <Name>ava_audio</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\AVA-C\build\core\ava_core.vcxproj">
+      <Project>{22FD6C2A-EFAE-3DE4-85DE-64A02ADDB3C0}</Project>
+      <Name>ava_core</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\AVA-C\build\dsp\ava_dsp.vcxproj">
+      <Project>{9852CA9D-B973-3A10-A12C-805B5D876CBB}</Project>
+      <Name>ava_dsp</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\AVA-C\build\ui\ava_ui.vcxproj">
+      <Project>{96F64A3C-9C16-3838-BCE1-5633A1C7A6E1}</Project>
+      <Name>ava_ui</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\AVA-C\build\ui\glad.vcxproj">
+      <Project>{FC175DA2-9580-3DB6-A3F4-46A4B1A836B4}</Project>
+      <Name>glad</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\AVA-C\build\ui\nanovg_gl3.vcxproj">
+      <Project>{3661C4C1-7146-3AAF-8711-1D3C091CD152}</Project>
+      <Name>nanovg_gl3</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

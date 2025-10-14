@@ -1,0 +1,346 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{EBCBB074-8A56-3ABB-8CF0-663C2870C8C3}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <VcpkgEnabled>false</VcpkgEnabled>
+    <WindowsTargetPlatformVersion>10.0.26100.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>DaisySP</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="do_not_import_user.props" Condition="exists('do_not_import_user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\AVA-C\build\DaisySP\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">DaisySP.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">DaisySP</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\AVA-C\build\DaisySP\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">DaisySP.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">DaisySP</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\AVA-C\build\DaisySP\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">DaisySP.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">DaisySP</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\AVA-C\build\DaisySP\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">DaisySP.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">DaisySP</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\AVA-C\DaisySP\Source;C:\AVA-C\DaisySP\Source\Control;C:\AVA-C\DaisySP\Source\Drums;C:\AVA-C\DaisySP\Source\Dynamics;C:\AVA-C\DaisySP\Source\Effects;C:\AVA-C\DaisySP\Source\Filters;C:\AVA-C\DaisySP\Source\Noise;C:\AVA-C\DaisySP\Source\PhysicalModeling;C:\AVA-C\DaisySP\Source\Sampling;C:\AVA-C\DaisySP\Source\Synthesis;C:\AVA-C\DaisySP\Source\Utility;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ForceConformanceInForLoopScope></ForceConformanceInForLoopScope>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp14</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData></RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <SupportJustMyCode></SupportJustMyCode>
+      <TreatWChar_tAsBuiltInType></TreatWChar_tAsBuiltInType>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_USE_MATH_DEFINES;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;_USE_MATH_DEFINES;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\AVA-C\DaisySP\Source;C:\AVA-C\DaisySP\Source\Control;C:\AVA-C\DaisySP\Source\Drums;C:\AVA-C\DaisySP\Source\Dynamics;C:\AVA-C\DaisySP\Source\Effects;C:\AVA-C\DaisySP\Source\Filters;C:\AVA-C\DaisySP\Source\Noise;C:\AVA-C\DaisySP\Source\PhysicalModeling;C:\AVA-C\DaisySP\Source\Sampling;C:\AVA-C\DaisySP\Source\Synthesis;C:\AVA-C\DaisySP\Source\Utility;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\AVA-C\DaisySP\Source;C:\AVA-C\DaisySP\Source\Control;C:\AVA-C\DaisySP\Source\Drums;C:\AVA-C\DaisySP\Source\Dynamics;C:\AVA-C\DaisySP\Source\Effects;C:\AVA-C\DaisySP\Source\Filters;C:\AVA-C\DaisySP\Source\Noise;C:\AVA-C\DaisySP\Source\PhysicalModeling;C:\AVA-C\DaisySP\Source\Sampling;C:\AVA-C\DaisySP\Source\Synthesis;C:\AVA-C\DaisySP\Source\Utility;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\AVA-C\DaisySP\Source;C:\AVA-C\DaisySP\Source\Control;C:\AVA-C\DaisySP\Source\Drums;C:\AVA-C\DaisySP\Source\Dynamics;C:\AVA-C\DaisySP\Source\Effects;C:\AVA-C\DaisySP\Source\Filters;C:\AVA-C\DaisySP\Source\Noise;C:\AVA-C\DaisySP\Source\PhysicalModeling;C:\AVA-C\DaisySP\Source\Sampling;C:\AVA-C\DaisySP\Source\Synthesis;C:\AVA-C\DaisySP\Source\Utility;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ForceConformanceInForLoopScope></ForceConformanceInForLoopScope>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp14</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData></RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <SupportJustMyCode></SupportJustMyCode>
+      <TreatWChar_tAsBuiltInType></TreatWChar_tAsBuiltInType>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_USE_MATH_DEFINES;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_USE_MATH_DEFINES;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\AVA-C\DaisySP\Source;C:\AVA-C\DaisySP\Source\Control;C:\AVA-C\DaisySP\Source\Drums;C:\AVA-C\DaisySP\Source\Dynamics;C:\AVA-C\DaisySP\Source\Effects;C:\AVA-C\DaisySP\Source\Filters;C:\AVA-C\DaisySP\Source\Noise;C:\AVA-C\DaisySP\Source\PhysicalModeling;C:\AVA-C\DaisySP\Source\Sampling;C:\AVA-C\DaisySP\Source\Synthesis;C:\AVA-C\DaisySP\Source\Utility;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\AVA-C\DaisySP\Source;C:\AVA-C\DaisySP\Source\Control;C:\AVA-C\DaisySP\Source\Drums;C:\AVA-C\DaisySP\Source\Dynamics;C:\AVA-C\DaisySP\Source\Effects;C:\AVA-C\DaisySP\Source\Filters;C:\AVA-C\DaisySP\Source\Noise;C:\AVA-C\DaisySP\Source\PhysicalModeling;C:\AVA-C\DaisySP\Source\Sampling;C:\AVA-C\DaisySP\Source\Synthesis;C:\AVA-C\DaisySP\Source\Utility;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\AVA-C\DaisySP\Source;C:\AVA-C\DaisySP\Source\Control;C:\AVA-C\DaisySP\Source\Drums;C:\AVA-C\DaisySP\Source\Dynamics;C:\AVA-C\DaisySP\Source\Effects;C:\AVA-C\DaisySP\Source\Filters;C:\AVA-C\DaisySP\Source\Noise;C:\AVA-C\DaisySP\Source\PhysicalModeling;C:\AVA-C\DaisySP\Source\Sampling;C:\AVA-C\DaisySP\Source\Synthesis;C:\AVA-C\DaisySP\Source\Utility;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ForceConformanceInForLoopScope></ForceConformanceInForLoopScope>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp14</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData></RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <SupportJustMyCode></SupportJustMyCode>
+      <TreatWChar_tAsBuiltInType></TreatWChar_tAsBuiltInType>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_USE_MATH_DEFINES;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_USE_MATH_DEFINES;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\AVA-C\DaisySP\Source;C:\AVA-C\DaisySP\Source\Control;C:\AVA-C\DaisySP\Source\Drums;C:\AVA-C\DaisySP\Source\Dynamics;C:\AVA-C\DaisySP\Source\Effects;C:\AVA-C\DaisySP\Source\Filters;C:\AVA-C\DaisySP\Source\Noise;C:\AVA-C\DaisySP\Source\PhysicalModeling;C:\AVA-C\DaisySP\Source\Sampling;C:\AVA-C\DaisySP\Source\Synthesis;C:\AVA-C\DaisySP\Source\Utility;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\AVA-C\DaisySP\Source;C:\AVA-C\DaisySP\Source\Control;C:\AVA-C\DaisySP\Source\Drums;C:\AVA-C\DaisySP\Source\Dynamics;C:\AVA-C\DaisySP\Source\Effects;C:\AVA-C\DaisySP\Source\Filters;C:\AVA-C\DaisySP\Source\Noise;C:\AVA-C\DaisySP\Source\PhysicalModeling;C:\AVA-C\DaisySP\Source\Sampling;C:\AVA-C\DaisySP\Source\Synthesis;C:\AVA-C\DaisySP\Source\Utility;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\AVA-C\DaisySP\Source;C:\AVA-C\DaisySP\Source\Control;C:\AVA-C\DaisySP\Source\Drums;C:\AVA-C\DaisySP\Source\Dynamics;C:\AVA-C\DaisySP\Source\Effects;C:\AVA-C\DaisySP\Source\Filters;C:\AVA-C\DaisySP\Source\Noise;C:\AVA-C\DaisySP\Source\PhysicalModeling;C:\AVA-C\DaisySP\Source\Sampling;C:\AVA-C\DaisySP\Source\Synthesis;C:\AVA-C\DaisySP\Source\Utility;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ForceConformanceInForLoopScope></ForceConformanceInForLoopScope>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp14</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData></RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <SupportJustMyCode></SupportJustMyCode>
+      <TreatWChar_tAsBuiltInType></TreatWChar_tAsBuiltInType>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_USE_MATH_DEFINES;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_USE_MATH_DEFINES;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\AVA-C\DaisySP\Source;C:\AVA-C\DaisySP\Source\Control;C:\AVA-C\DaisySP\Source\Drums;C:\AVA-C\DaisySP\Source\Dynamics;C:\AVA-C\DaisySP\Source\Effects;C:\AVA-C\DaisySP\Source\Filters;C:\AVA-C\DaisySP\Source\Noise;C:\AVA-C\DaisySP\Source\PhysicalModeling;C:\AVA-C\DaisySP\Source\Sampling;C:\AVA-C\DaisySP\Source\Synthesis;C:\AVA-C\DaisySP\Source\Utility;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\AVA-C\DaisySP\Source;C:\AVA-C\DaisySP\Source\Control;C:\AVA-C\DaisySP\Source\Drums;C:\AVA-C\DaisySP\Source\Dynamics;C:\AVA-C\DaisySP\Source\Effects;C:\AVA-C\DaisySP\Source\Filters;C:\AVA-C\DaisySP\Source\Noise;C:\AVA-C\DaisySP\Source\PhysicalModeling;C:\AVA-C\DaisySP\Source\Sampling;C:\AVA-C\DaisySP\Source\Synthesis;C:\AVA-C\DaisySP\Source\Utility;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\AVA-C\DaisySP\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/AVA-C/DaisySP/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/AVA-C -BC:/AVA-C/build --check-stamp-file C:/AVA-C/build/DaisySP/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\AVA-C\build\DaisySP\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/AVA-C/DaisySP/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/AVA-C -BC:/AVA-C/build --check-stamp-file C:/AVA-C/build/DaisySP/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\AVA-C\build\DaisySP\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/AVA-C/DaisySP/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/AVA-C -BC:/AVA-C/build --check-stamp-file C:/AVA-C/build/DaisySP/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\AVA-C\build\DaisySP\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/AVA-C/DaisySP/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/AVA-C -BC:/AVA-C/build --check-stamp-file C:/AVA-C/build/DaisySP/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\AVA-C\build\DaisySP\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\AVA-C\DaisySP\Source\Control\adenv.cpp" />
+    <ClCompile Include="C:\AVA-C\DaisySP\Source\Control\adsr.cpp" />
+    <ClCompile Include="C:\AVA-C\DaisySP\Source\Control\phasor.cpp" />
+    <ClCompile Include="C:\AVA-C\DaisySP\Source\Drums\analogbassdrum.cpp" />
+    <ClCompile Include="C:\AVA-C\DaisySP\Source\Drums\analogsnaredrum.cpp" />
+    <ClCompile Include="C:\AVA-C\DaisySP\Source\Drums\hihat.cpp" />
+    <ClCompile Include="C:\AVA-C\DaisySP\Source\Drums\synthbassdrum.cpp" />
+    <ClCompile Include="C:\AVA-C\DaisySP\Source\Drums\synthsnaredrum.cpp" />
+    <ClCompile Include="C:\AVA-C\DaisySP\Source\Dynamics\crossfade.cpp" />
+    <ClCompile Include="C:\AVA-C\DaisySP\Source\Dynamics\limiter.cpp" />
+    <ClCompile Include="C:\AVA-C\DaisySP\Source\Effects\autowah.cpp" />
+    <ClCompile Include="C:\AVA-C\DaisySP\Source\Effects\chorus.cpp" />
+    <ClCompile Include="C:\AVA-C\DaisySP\Source\Effects\decimator.cpp" />
+    <ClCompile Include="C:\AVA-C\DaisySP\Source\Effects\flanger.cpp" />
+    <ClCompile Include="C:\AVA-C\DaisySP\Source\Effects\overdrive.cpp" />
+    <ClCompile Include="C:\AVA-C\DaisySP\Source\Effects\phaser.cpp" />
+    <ClCompile Include="C:\AVA-C\DaisySP\Source\Effects\sampleratereducer.cpp" />
+    <ClCompile Include="C:\AVA-C\DaisySP\Source\Effects\tremolo.cpp" />
+    <ClCompile Include="C:\AVA-C\DaisySP\Source\Effects\reverbsc.cpp" />
+    <ClCompile Include="C:\AVA-C\DaisySP\Source\Effects\wavefolder.cpp" />
+    <ClCompile Include="C:\AVA-C\DaisySP\Source\Filters\svf.cpp" />
+    <ClCompile Include="C:\AVA-C\DaisySP\Source\Filters\soap.cpp" />
+    <ClCompile Include="C:\AVA-C\DaisySP\Source\Noise\clockednoise.cpp" />
+    <ClCompile Include="C:\AVA-C\DaisySP\Source\Noise\grainlet.cpp" />
+    <ClCompile Include="C:\AVA-C\DaisySP\Source\Noise\particle.cpp" />
+    <ClCompile Include="C:\AVA-C\DaisySP\Source\PhysicalModeling\drip.cpp" />
+    <ClCompile Include="C:\AVA-C\DaisySP\Source\PhysicalModeling\modalvoice.cpp" />
+    <ClCompile Include="C:\AVA-C\DaisySP\Source\PhysicalModeling\resonator.cpp" />
+    <ClCompile Include="C:\AVA-C\DaisySP\Source\PhysicalModeling\KarplusString.cpp" />
+    <ClCompile Include="C:\AVA-C\DaisySP\Source\PhysicalModeling\stringvoice.cpp" />
+    <ClCompile Include="C:\AVA-C\DaisySP\Source\Sampling\granularplayer.cpp" />
+    <ClCompile Include="C:\AVA-C\DaisySP\Source\Synthesis\fm2.cpp" />
+    <ClCompile Include="C:\AVA-C\DaisySP\Source\Synthesis\formantosc.cpp" />
+    <ClCompile Include="C:\AVA-C\DaisySP\Source\Synthesis\oscillator.cpp" />
+    <ClCompile Include="C:\AVA-C\DaisySP\Source\Synthesis\oscillatorbank.cpp" />
+    <ClCompile Include="C:\AVA-C\DaisySP\Source\Synthesis\variablesawosc.cpp" />
+    <ClCompile Include="C:\AVA-C\DaisySP\Source\Synthesis\variableshapeosc.cpp" />
+    <ClCompile Include="C:\AVA-C\DaisySP\Source\Synthesis\vosim.cpp" />
+    <ClCompile Include="C:\AVA-C\DaisySP\Source\Synthesis\zoscillator.cpp" />
+    <ClCompile Include="C:\AVA-C\DaisySP\Source\Utility\dcblock.cpp" />
+    <ClCompile Include="C:\AVA-C\DaisySP\Source\Utility\metro.cpp" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="C:\AVA-C\build\ZERO_CHECK.vcxproj">
+      <Project>{535E3800-21F0-3619-B277-EE33078294AD}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

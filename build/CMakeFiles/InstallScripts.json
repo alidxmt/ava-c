@@ -1,0 +1,13 @@
+{
+	"InstallScripts" : 
+	[
+		"C:/AVA-C/build/cmake_install.cmake",
+		"C:/AVA-C/build/DaisySP/cmake_install.cmake",
+		"C:/AVA-C/build/core/cmake_install.cmake",
+		"C:/AVA-C/build/ui/cmake_install.cmake",
+		"C:/AVA-C/build/dsp/cmake_install.cmake",
+		"C:/AVA-C/build/audio/cmake_install.cmake",
+		"C:/AVA-C/build/app/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

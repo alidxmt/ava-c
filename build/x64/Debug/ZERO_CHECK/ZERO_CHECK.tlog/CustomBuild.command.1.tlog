@@ -1,0 +1,10 @@
+^C:\AVA-C\BUILD\CMAKEFILES\1B722C6EE6C4243C2474A04EE0112D3C\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/AVA-C -BC:/AVA-C/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/AVA-C/build/AVA_C.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -1,0 +1,398 @@
+Folder PATH listing for volume Local Disk
+Volume serial number is 803D-0C49
+C:.
+�   AVA-C.zip
+�   CMakeLists.txt
+�   project_tree.txt
+�   
++---0
+�       archi.dm
+�       info.md
+�       project_tree.txt
+�       token-github.md
+�       
++---app
+�       CMakeLists.txt
+�       main.cpp
+�       
++---assets
+�       .keep
+�       
++---audio
+�       AudioEngine.cpp
+�       AudioEngine.h
+�       CMakeLists.txt
+�       
++---build
+�   �   ALL_BUILD.vcxproj
+�   �   ALL_BUILD.vcxproj.filters
+�   �   AVA_C.sln
+�   �   CMakeCache.txt
+�   �   cmake_install.cmake
+�   �   ZERO_CHECK.vcxproj
+�   �   ZERO_CHECK.vcxproj.filters
+�   �   
+�   +---app
+�   �   �   AVA_C.vcxproj
+�   �   �   AVA_C.vcxproj.filters
+�   �   �   cmake_install.cmake
+�   �   �   
+�   �   +---AVA_C.dir
+�   �   �   +---Debug
+�   �   �       �   AVA_C.exe.recipe
+�   �   �       �   AVA_C.ilk
+�   �   �       �   main.obj
+�   �   �       �   vc143.pdb
+�   �   �       �   
+�   �   �       +---AVA_C.tlog
+�   �   �               AVA_C.lastbuildstate
+�   �   �               CL.command.1.tlog
+�   �   �               Cl.items.tlog
+�   �   �               CL.read.1.tlog
+�   �   �               CL.write.1.tlog
+�   �   �               CustomBuild.command.1.tlog
+�   �   �               CustomBuild.read.1.tlog
+�   �   �               CustomBuild.write.1.tlog
+�   �   �               link.command.1.tlog
+�   �   �               link.read.1.tlog
+�   �   �               link.secondary.1.tlog
+�   �   �               link.write.1.tlog
+�   �   �               
+�   �   +---CMakeFiles
+�   �   �       generate.stamp
+�   �   �       generate.stamp.depend
+�   �   �       
+�   �   +---Debug
+�   �           AVA_C.exe
+�   �           AVA_C.pdb
+�   �           rtaudiod.dll
+�   �           SDL2.dll
+�   �           SDL2d.dll
+�   �           
+�   +---audio
+�   �   �   ava_audio.vcxproj
+�   �   �   ava_audio.vcxproj.filters
+�   �   �   cmake_install.cmake
+�   �   �   
+�   �   +---ava_audio.dir
+�   �   �   +---Debug
+�   �   �       �   AudioEngine.obj
+�   �   �       �   ava_audio.lib.recipe
+�   �   �       �   
+�   �   �       +---ava_audio.tlog
+�   �   �               ava_audio.lastbuildstate
+�   �   �               CL.command.1.tlog
+�   �   �               Cl.items.tlog
+�   �   �               CL.read.1.tlog
+�   �   �               CL.write.1.tlog
+�   �   �               CustomBuild.command.1.tlog
+�   �   �               CustomBuild.read.1.tlog
+�   �   �               CustomBuild.write.1.tlog
+�   �   �               Lib-link.read.1.tlog
+�   �   �               Lib-link.write.1.tlog
+�   �   �               Lib.command.1.tlog
+�   �   �               
+�   �   +---CMakeFiles
+�   �   �       generate.stamp
+�   �   �       generate.stamp.depend
+�   �   �       
+�   �   +---Debug
+�   �           ava_audio.lib
+�   �           ava_audio.pdb
+�   �           
+�   +---CMakeFiles
+�   �   �   cmake.check_cache
+�   �   �   CMakeConfigureLog.yaml
+�   �   �   generate.stamp
+�   �   �   generate.stamp.depend
+�   �   �   generate.stamp.list
+�   �   �   InstallScripts.json
+�   �   �   TargetDirectories.txt
+�   �   �   
+�   �   +---1b722c6ee6c4243c2474a04ee0112d3c
+�   �   �       generate.stamp.rule
+�   �   �       
+�   �   +---4.1.0
+�   �   �   �   CMakeCCompiler.cmake
+�   �   �   �   CMakeCXXCompiler.cmake
+�   �   �   �   CMakeDetermineCompilerABI_C.bin
+�   �   �   �   CMakeDetermineCompilerABI_CXX.bin
+�   �   �   �   CMakeRCCompiler.cmake
+�   �   �   �   CMakeSystem.cmake
+�   �   �   �   VCTargetsPath.txt
+�   �   �   �   VCTargetsPath.vcxproj
+�   �   �   �   
+�   �   �   +---CompilerIdC
+�   �   �   �   �   CMakeCCompilerId.c
+�   �   �   �   �   CompilerIdC.exe
+�   �   �   �   �   CompilerIdC.vcxproj
+�   �   �   �   �   
+�   �   �   �   +---Debug
+�   �   �   �   �   �   CMakeCCompilerId.obj
+�   �   �   �   �   �   CompilerIdC.exe.recipe
+�   �   �   �   �   �   
+�   �   �   �   �   +---CompilerIdC.tlog
+�   �   �   �   �           CL.command.1.tlog
+�   �   �   �   �           Cl.items.tlog
+�   �   �   �   �           CL.read.1.tlog
+�   �   �   �   �           CL.write.1.tlog
+�   �   �   �   �           CompilerIdC.lastbuildstate
+�   �   �   �   �           link.command.1.tlog
+�   �   �   �   �           link.read.1.tlog
+�   �   �   �   �           link.secondary.1.tlog
+�   �   �   �   �           link.write.1.tlog
+�   �   �   �   �           
+�   �   �   �   +---tmp
+�   �   �   +---CompilerIdCXX
+�   �   �   �   �   CMakeCXXCompilerId.cpp
+�   �   �   �   �   CompilerIdCXX.exe
+�   �   �   �   �   CompilerIdCXX.vcxproj
+�   �   �   �   �   
+�   �   �   �   +---Debug
+�   �   �   �   �   �   CMakeCXXCompilerId.obj
+�   �   �   �   �   �   CompilerIdCXX.exe.recipe
+�   �   �   �   �   �   
+�   �   �   �   �   +---CompilerIdCXX.tlog
+�   �   �   �   �           CL.command.1.tlog
+�   �   �   �   �           Cl.items.tlog
+�   �   �   �   �           CL.read.1.tlog
+�   �   �   �   �           CL.write.1.tlog
+�   �   �   �   �           CompilerIdCXX.lastbuildstate
+�   �   �   �   �           link.command.1.tlog
+�   �   �   �   �           link.read.1.tlog
+�   �   �   �   �           link.secondary.1.tlog
+�   �   �   �   �           link.write.1.tlog
+�   �   �   �   �           
+�   �   �   �   +---tmp
+�   �   �   +---VCTargetsPath
+�   �   �   �   +---x64
+�   �   �   �       +---Debug
+�   �   �   �           �   VCTargetsPath.recipe
+�   �   �   �           �   
+�   �   �   �           +---VCTargetsPath.tlog
+�   �   �   �                   VCTargetsPath.lastbuildstate
+�   �   �   �                   
+�   �   �   +---x64
+�   �   �       +---Debug
+�   �   +---pkgRedirects
+�   +---dsp
+�   �   �   ava_dsp.vcxproj
+�   �   �   ava_dsp.vcxproj.filters
+�   �   �   cmake_install.cmake
+�   �   �   
+�   �   +---ava_dsp.dir
+�   �   �   +---Debug
+�   �   �       �   ava_dsp.lib.recipe
+�   �   �       �   Oscillator.obj
+�   �   �       �   
+�   �   �       +---ava_dsp.tlog
+�   �   �               ava_dsp.lastbuildstate
+�   �   �               CL.command.1.tlog
+�   �   �               Cl.items.tlog
+�   �   �               CL.read.1.tlog
+�   �   �               CL.write.1.tlog
+�   �   �               CustomBuild.command.1.tlog
+�   �   �               CustomBuild.read.1.tlog
+�   �   �               CustomBuild.write.1.tlog
+�   �   �               Lib-link.read.1.tlog
+�   �   �               Lib-link.write.1.tlog
+�   �   �               Lib.command.1.tlog
+�   �   �               
+�   �   +---CMakeFiles
+�   �   �       generate.stamp
+�   �   �       generate.stamp.depend
+�   �   �       
+�   �   +---Debug
+�   �           ava_dsp.lib
+�   �           ava_dsp.pdb
+�   �           
+�   +---ui
+�   �   �   ava_ui.vcxproj
+�   �   �   ava_ui.vcxproj.filters
+�   �   �   cmake_install.cmake
+�   �   �   glad.vcxproj
+�   �   �   glad.vcxproj.filters
+�   �   �   nanovg_gl3.vcxproj
+�   �   �   nanovg_gl3.vcxproj.filters
+�   �   �   
+�   �   +---ava_ui.dir
+�   �   �   +---Debug
+�   �   �       �   ava_ui.lib.recipe
+�   �   �       �   GainBar.obj
+�   �   �       �   Primitives.obj
+�   �   �       �   Root.obj
+�   �   �       �   
+�   �   �       +---ava_ui.tlog
+�   �   �               ava_ui.lastbuildstate
+�   �   �               CL.command.1.tlog
+�   �   �               Cl.items.tlog
+�   �   �               CL.read.1.tlog
+�   �   �               CL.write.1.tlog
+�   �   �               CustomBuild.command.1.tlog
+�   �   �               CustomBuild.read.1.tlog
+�   �   �               CustomBuild.write.1.tlog
+�   �   �               Lib-link.read.1.tlog
+�   �   �               Lib-link.write.1.tlog
+�   �   �               Lib.command.1.tlog
+�   �   �               
+�   �   +---CMakeFiles
+�   �   �       generate.stamp
+�   �   �       generate.stamp.depend
+�   �   �       
+�   �   +---Debug
+�   �   �       ava_ui.lib
+�   �   �       ava_ui.pdb
+�   �   �       glad.lib
+�   �   �       glad.pdb
+�   �   �       nanovg_gl3.lib
+�   �   �       nanovg_gl3.pdb
+�   �   �       
+�   �   +---glad.dir
+�   �   �   +---Debug
+�   �   �       �   gl.obj
+�   �   �       �   glad.lib.recipe
+�   �   �       �   
+�   �   �       +---glad.tlog
+�   �   �               CL.command.1.tlog
+�   �   �               Cl.items.tlog
+�   �   �               CL.read.1.tlog
+�   �   �               CL.write.1.tlog
+�   �   �               CustomBuild.command.1.tlog
+�   �   �               CustomBuild.read.1.tlog
+�   �   �               CustomBuild.write.1.tlog
+�   �   �               glad.lastbuildstate
+�   �   �               Lib-link.read.1.tlog
+�   �   �               Lib-link.write.1.tlog
+�   �   �               Lib.command.1.tlog
+�   �   �               
+�   �   +---nanovg_gl3.dir
+�   �       +---Debug
+�   �           �   nanovg.obj
+�   �           �   nanovg_backend.obj
+�   �           �   nanovg_gl3.lib.recipe
+�   �           �   
+�   �           +---nanovg_gl3.tlog
+�   �                   CL.command.1.tlog
+�   �                   Cl.items.tlog
+�   �                   CL.read.1.tlog
+�   �                   CL.write.1.tlog
+�   �                   CustomBuild.command.1.tlog
+�   �                   CustomBuild.read.1.tlog
+�   �                   CustomBuild.write.1.tlog
+�   �                   Lib-link.read.1.tlog
+�   �                   Lib-link.write.1.tlog
+�   �                   Lib.command.1.tlog
+�   �                   nanovg_gl3.lastbuildstate
+�   �                   
+�   +---x64
+�       +---Debug
+�           +---ZERO_CHECK
+�               �   ZERO_CHECK.recipe
+�               �   
+�               +---ZERO_CHECK.tlog
+�                       CustomBuild.command.1.tlog
+�                       CustomBuild.read.1.tlog
+�                       CustomBuild.write.1.tlog
+�                       ZERO_CHECK.lastbuildstate
+�                       
++---core
+�       EventRouter.cpp
+�       EventRouter.h
+�       
++---dsp
+�       CMakeLists.txt
+�       Oscillator.cpp
+�       Oscillator.h
+�       Parameters.h
+�       
++---external
+�   +---glad
+�   �   +---include
+�   �   �   +---glad
+�   �   �   �       gl.h
+�   �   �   �       
+�   �   �   +---KHR
+�   �   �           khrplatform.h
+�   �   �           
+�   �   +---src
+�   �           gl.c
+�   �           
+�   +---nanovg
+�       �   .gitignore
+�       �   LICENSE.txt
+�       �   nanovg.h
+�       �   nanovg_gl.h
+�       �   premake4.lua
+�       �   README.md
+�       �   
+�       +---.github
+�       �   +---workflows
+�       �           ci.yml
+�       �           
+�       +---example
+�       �   �   demo.c
+�       �   �   demo.h
+�       �   �   entypo.ttf
+�       �   �   example_fbo.c
+�       �   �   example_gl2.c
+�       �   �   example_gl3.c
+�       �   �   example_gles2.c
+�       �   �   example_gles3.c
+�       �   �   images.txt
+�       �   �   LICENSE_OFL.txt
+�       �   �   NotoEmoji-Regular.ttf
+�       �   �   perf.c
+�       �   �   perf.h
+�       �   �   Roboto-Bold.ttf
+�       �   �   Roboto-Light.ttf
+�       �   �   Roboto-Regular.ttf
+�       �   �   screenshot-01.png
+�       �   �   screenshot-02.png
+�       �   �   stb_image_write.h
+�       �   �   
+�       �   +---images
+�       �           image1.jpg
+�       �           image10.jpg
+�       �           image11.jpg
+�       �           image12.jpg
+�       �           image2.jpg
+�       �           image3.jpg
+�       �           image4.jpg
+�       �           image5.jpg
+�       �           image6.jpg
+�       �           image7.jpg
+�       �           image8.jpg
+�       �           image9.jpg
+�       �           
+�       +---obsolete
+�       �       nanovg_gl2.h
+�       �       nanovg_gl3.h
+�       �       obsolete.md
+�       �       
+�       +---src
+�               fontstash.h
+�               nanovg.c
+�               nanovg_gl_utils.h
+�               stb_image.h
+�               stb_truetype.h
+�               
++---src
+�       check_kissfft.cpp
+�       check_rtaudio.cpp
+�       main.cpp
+�       vcpkg.json
+�       
++---ui
+        Calligraphy.cpp
+        Calligraphy.h
+        CMakeLists.txt
+        GainBar.cpp
+        GainBar.h
+        nanovg_backend.cpp
+        Primitives.cpp
+        Primitives.h
+        root.cpp
+        root.h
+        UIManager.cpp
+        UIManager.h
+        

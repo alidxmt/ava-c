@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\AVA-C\DaisySP\Source\Control\adenv.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\AVA-C\DaisySP\Source\Control\adsr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\AVA-C\DaisySP\Source\Control\phasor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\AVA-C\DaisySP\Source\Drums\analogbassdrum.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\AVA-C\DaisySP\Source\Drums\analogsnaredrum.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\AVA-C\DaisySP\Source\Drums\hihat.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\AVA-C\DaisySP\Source\Drums\synthbassdrum.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\AVA-C\DaisySP\Source\Drums\synthsnaredrum.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\AVA-C\DaisySP\Source\Dynamics\crossfade.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\AVA-C\DaisySP\Source\Dynamics\limiter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\AVA-C\DaisySP\Source\Effects\autowah.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\AVA-C\DaisySP\Source\Effects\chorus.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\AVA-C\DaisySP\Source\Effects\decimator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\AVA-C\DaisySP\Source\Effects\flanger.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\AVA-C\DaisySP\Source\Effects\overdrive.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\AVA-C\DaisySP\Source\Effects\phaser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\AVA-C\DaisySP\Source\Effects\sampleratereducer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\AVA-C\DaisySP\Source\Effects\tremolo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\AVA-C\DaisySP\Source\Effects\reverbsc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\AVA-C\DaisySP\Source\Effects\wavefolder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\AVA-C\DaisySP\Source\Filters\svf.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\AVA-C\DaisySP\Source\Filters\soap.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\AVA-C\DaisySP\Source\Noise\clockednoise.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\AVA-C\DaisySP\Source\Noise\grainlet.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\AVA-C\DaisySP\Source\Noise\particle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\AVA-C\DaisySP\Source\PhysicalModeling\drip.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\AVA-C\DaisySP\Source\PhysicalModeling\modalvoice.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\AVA-C\DaisySP\Source\PhysicalModeling\resonator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\AVA-C\DaisySP\Source\PhysicalModeling\KarplusString.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\AVA-C\DaisySP\Source\PhysicalModeling\stringvoice.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\AVA-C\DaisySP\Source\Sampling\granularplayer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\AVA-C\DaisySP\Source\Synthesis\fm2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\AVA-C\DaisySP\Source\Synthesis\formantosc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\AVA-C\DaisySP\Source\Synthesis\oscillator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\AVA-C\DaisySP\Source\Synthesis\oscillatorbank.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\AVA-C\DaisySP\Source\Synthesis\variablesawosc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\AVA-C\DaisySP\Source\Synthesis\variableshapeosc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\AVA-C\DaisySP\Source\Synthesis\vosim.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\AVA-C\DaisySP\Source\Synthesis\zoscillator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\AVA-C\DaisySP\Source\Utility\dcblock.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\AVA-C\DaisySP\Source\Utility\metro.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\AVA-C\DaisySP\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{CCDB09D4-0806-3DAD-9A9A-E9B35F77E533}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

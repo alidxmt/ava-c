@@ -1,0 +1,41 @@
+We’re porting Ali’s JavaScript/HTML/CSS multitouch music app into C++ Combi Mode, which uses:
+
+SDL2 → windowing & multitouch input
+
+NanoVG (GL3 backend) → vector graphics UI
+
+RtAudio → audio I/O
+
+KissFFT → DSP/spectral analysis
+
+CMake → build system
+
+What’s done so far:
+
+✅ SDL2 + OpenGL + NanoVG pipeline set up with fullscreen window.
+
+✅ GLAD loads OpenGL.
+
+✅ AudioEngine (RtAudio) runs at 400 Hz test tone.
+
+✅ EventRouter handles events (SDL_KEYDOWN, SDL_MOUSEBUTTONDOWN, SDL_FINGERDOWN, etc.).
+
+✅ Touch logging: shows finger id, phase (start/move/end), normalized x/y, active touch count, and latency (std::chrono).
+
+✅ Touch label: shows active touches in the window using Label class. Label supports font size, text color, background color, border color, and corner radius.
+
+✅ Exit button: small red square at (10,10) quits app when clicked.
+
+✅ Console logging cleaned: std::cout removed for keys, mouse, and touch logs (commented out). Only touch label and exit logic remain active. Frame latency logging is optional (commented in main.cpp).
+
+Current state:
+
+App runs fullscreen, displays window size and active touches as labels.
+
+Terminal is clean (no spam unless we re-enable logs).
+
+Multitouch is tracked, and label updates dynamically when fingers start/move/end.
+
+
+
+------------------------

@@ -1,0 +1,11 @@
+C:/AVA-C/build/CMakeFiles/ALL_BUILD.dir
+C:/AVA-C/build/CMakeFiles/ZERO_CHECK.dir
+C:/AVA-C/build/DaisySP/CMakeFiles/DaisySP.dir
+C:/AVA-C/build/DaisySP/CMakeFiles/ALL_BUILD.dir
+C:/AVA-C/build/core/CMakeFiles/ava_core.dir
+C:/AVA-C/build/ui/CMakeFiles/glad.dir
+C:/AVA-C/build/ui/CMakeFiles/nanovg_gl3.dir
+C:/AVA-C/build/ui/CMakeFiles/ava_ui.dir
+C:/AVA-C/build/dsp/CMakeFiles/ava_dsp.dir
+C:/AVA-C/build/audio/CMakeFiles/ava_audio.dir
+C:/AVA-C/build/app/CMakeFiles/AVA_C.dir
