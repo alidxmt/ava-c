@@ -161,7 +161,7 @@ static bool initGL(SDL_Window*& window, SDL_GLContext& glctx,
 
     kb = Keyboard(
         numKeys,
-        110.0,
+        55.0,
         mode.ratios,
         mode.labels,
         Key::Sine,
@@ -339,7 +339,7 @@ try {
     // now build keyboard from that mode
     Keyboard keyboard(
         30,                // numKeys
-        110.0,             // base frequency
+        55.0,             // base frequency
         mode.ratios,       // ✅ from JSON
         mode.labels,       // ✅ from JSON
         Key::Sine,
